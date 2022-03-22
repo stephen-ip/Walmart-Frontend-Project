@@ -1,0 +1,13 @@
+.name {
+    width: fit-content;
+}
+
+.iconUser {
+    margin-right: 5px;
+    font-size: medium;
+}
+
+.iconMail {
+    margin-right: 5px;
+    font-size: large;
+}

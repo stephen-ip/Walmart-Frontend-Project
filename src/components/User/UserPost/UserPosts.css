@@ -1,0 +1,72 @@
+.post {
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid black;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-controls {
+    display: flex;
+    /* background-color: red; */
+    gap: 10px;
+    align-self: start;
+}
+
+.EditForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    width: 400px;
+    max-width: 90%;
+    height: max-content;
+}
+
+textarea {
+    height: 150px;
+}
+
+.show-comments {
+    cursor: pointer;
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .7);
+    margin-left: 40px;
+    padding: 6px;
+    border: 1px solid grey;
+}
+
+.commenter {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-bottom: -10px;
+}
+
+.comment-textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+    height: 50%;
+}
+
+.comment-button {
+    align-self: flex-start;
+    margin-bottom: 5px;
+}

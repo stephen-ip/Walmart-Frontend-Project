@@ -1,0 +1,29 @@
+.album {
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid black;
+}
+
+.album-title {
+    text-align: center;
+}
+
+.show-photos {
+    cursor: pointer;
+}
+
+.photos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 6px;
+    border: 1px solid grey;
+    text-align: center;
+}
