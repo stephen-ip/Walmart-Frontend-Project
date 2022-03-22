@@ -1,14 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Walmart Global Tech Software Engineering Homework Assignment
+# Walmart Global Tech Software Engineering Homework Assignment
 
 In the project directory, you can run:
 
+### `npm i`
 ### `npm start`
 
-Runs the app in the development mode.\
+to install the dependencies and run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Project Specifications
 - User list by name
   - on hover to show popup with username and email
   - on click to navigate to user detail page
